@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>🚙 Steticar: Início</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+      * {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --body-color: #e4e9f7;
+        --sidebar-color: #fff;
+        --primary-color: #695cfe;
+        --primary-color-light: #f6f5ff;
+        --toggle-color: #ddd;
+        --text-color: #707070;
+      }
+
+      /* Geral */
+      body {
+        height: 100vh;
+        background: var(--body-color);
+        transition: var(--tran-05);
+      }
+
+      .menu-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .menu-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+      }
+
+      .nav-link {
+        margin-bottom: 50px;
+      }
+
+      .nav-link a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--text-color);
+      }
+
+      .nav-link a:hover {
+        color: var(--primary-color);
+      }
+
+      .icon {
+        margin-right: 20px;
+        font-size: 80px;
+      }
+
+      .nav-text {
+        font-size: 46px;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="menu-container">
+      <ul class="menu-links">
+        <li class="nav-link">
+          <a href="entrada.html">
+            <i class="bx bx-home-alt icon"></i>
+            <span class="text nav-text">Entrada</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <i class="bx bx-bar-chart-alt-2 icon"></i>
+            <span class="text nav-text">Cadastrar</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <i class="bx bx-bar-chart-alt icon"></i>
+            <span class="text nav-text">Relatórios</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <i class="bx bx-wallet icon"></i>
+            <span class="text nav-text">Meu Caixa</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

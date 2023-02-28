@@ -1,0 +1,20 @@
+Cliente
+- Nome:
+- Endereço:
+- Telefone:
+
+Carro
+- Placa:
+- Modelo:
+- Marca:
+
+Caixa
+- Valor/Lavagem:
+- Soma diária:
+- Soma mensal:
+
+Dashboard
+- Valor/Cliente:
+- Valor/mês:
+- Valor/dia:
+
